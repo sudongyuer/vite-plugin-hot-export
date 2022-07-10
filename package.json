@@ -53,10 +53,10 @@
     "eslint": "^8.18.0",
     "pnpm": "^7.3.0",
     "tsx": "^3.6.0",
+    "turbo": "^1.2.16",
     "typescript": "^4.7.4",
     "unbuild": "^0.7.4",
     "vite": "^2.9.12",
-    "turbo": "^1.2.16",
     "vitest": "^0.15.2"
   },
   "eslintConfig": {
