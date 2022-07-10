@@ -1,6 +1,8 @@
-# ts-starter
+# vite-plugin-hot-export
 
-> A TypeScript starter for sudongyuer.
+Automatically export files of the same type with HMR
+
+## WIP
 
 ## License
 
