@@ -28,6 +28,28 @@ importers:
       vite: 2.9.14
       vitest: 0.15.2
 
+  packages/vite-plugin-hot-export:
+    specifiers:
+      '@sudongyuer/eslint-config': ^0.1.3
+      '@types/node': ^18.0.0
+      eslint: ^8.18.0
+      pnpm: ^7.3.0
+      tsx: ^3.6.0
+      typescript: ^4.7.4
+      unbuild: ^0.7.4
+      vite: ^2.9.12
+      vitest: ^0.15.2
+    devDependencies:
+      '@sudongyuer/eslint-config': 0.1.3_eslint@8.19.0+typescript@4.7.4
+      '@types/node': 18.0.3
+      eslint: 8.19.0
+      pnpm: 7.5.0
+      tsx: 3.7.1
+      typescript: 4.7.4
+      unbuild: 0.7.4
+      vite: 2.9.14
+      vitest: 0.15.2
+
 packages:
 
   /@ampproject/remapping/2.2.0:
