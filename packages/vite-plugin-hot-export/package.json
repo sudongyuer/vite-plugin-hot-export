@@ -1,5 +1,6 @@
 {
   "name": "vite-plugin-hot-export",
+  "type": "module",
   "version": "0.0.0",
   "packageManager": "pnpm@7.1.5",
   "description": "",
@@ -9,7 +10,11 @@
   "homepage": "https://github.com/sudongyuer/vite-plugin-hot-export#readme",
   "repository": "https://github.com/sudongyuer/vite-plugin-hot-export",
   "bugs": "https://github.com/sudongyuer/vite-plugin-hot-export/issues",
-  "keywords": ["vite", "vite-plugin", "vite-plugin-hot-export"],
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "vite-plugin-hot-export"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -28,11 +33,14 @@
       ]
     }
   },
+  "bin": {
+    "autoexport": "./node_modules/.bin/autoexport"
+  },
   "files": [
     "dist"
   ],
   "scripts": {
-    "dev": "unbuild --stub",
+    "dev": "unbuild --stub --declaration",
     "build": "unbuild",
     "test": "vitest",
     "version": "changeset version",
@@ -43,6 +51,10 @@
     "lint": "eslint . --cache",
     "lint-fix": "eslint . --fix",
     "try": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "auto-export": "^0.2.2",
+    "unconfig": "^0.3.5"
   },
   "devDependencies": {
     "@sudongyuer/eslint-config": "^0.1.3",
