@@ -1,5 +1,5 @@
-import Avatar from 'Avatar.png'
+import Love from './Love.jpeg'
 
 export {
-  Avatar,
+  Love,
 }
