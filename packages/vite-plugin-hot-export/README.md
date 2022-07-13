@@ -26,7 +26,7 @@ When developing, we often need to download some `images` or `svg` from the inter
 ## 📺 Preview
 
 <p align='center'>
-<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220713/demo.417kh4hcs9i0.gif?raw=true' width='500'/>
+<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220713/vite-hot-export-demo.l9h48i8j2f4.gif?raw=true' width='100%'/>
 </p>
 
 
