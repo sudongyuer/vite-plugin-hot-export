@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.4.0
+
+### Minor Changes
+
+- 57cc873: fix: vite build process not exit
+
 ## 0.3.0
 
 ### Minor Changes
