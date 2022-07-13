@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.4.2
+
+### Patch Changes
+
+- 41b62ce: update README.md
+
 ## 0.4.1
 
 ### Patch Changes
