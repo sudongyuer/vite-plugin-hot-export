@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.2.0
+
+### Minor Changes
+
+- c403f16: update preivew gif
+
 ## 0.1.0
 
 ### Minor Changes
