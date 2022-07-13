@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.4.3
+
+### Patch Changes
+
+- 8fc6bde: update
+
 ## 0.4.2
 
 ### Patch Changes
