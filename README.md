@@ -47,7 +47,7 @@ pnpm add -D vite-plugin-hot-export
 - customImport (optional): custom the import statement to use in the `index.ts` file 
 
 ```js
-import { defineExportConfig } from 'vite-plugin-export'
+import { defineExportConfig } from 'vite-plugin-hot-export'
 export default defineExportConfig({
   configs: [
     {
