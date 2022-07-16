@@ -1,5 +1,17 @@
 # vite-plugin-hot-export
 
+## 0.5.0
+
+### Minor Changes
+
+- fc151a7: - Nested directory generate support 🌈
+  - Auto Prefix support 🍣
+  - Optimize generate ✨
+
+### Patch Changes
+
+- d5feccf: update README.md
+
 ## 0.4.3
 
 ### Patch Changes
