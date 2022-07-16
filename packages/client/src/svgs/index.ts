@@ -1,9 +1,9 @@
-import { ReactComponent as DanGao } from './DanGao.svg'
-import { ReactComponent as ReactIcon } from './react-icon.svg'
-import { ReactComponent as Reactquery } from './reactquery.svg'
+import { ReactComponent as SvgDanGao } from './DanGao.svg'
+import { ReactComponent as SvgReactIcon } from './react-icon.svg'
+import { ReactComponent as SvgReactquery } from './reactquery.svg'
 
 export {
-  DanGao,
-  ReactIcon,
-  Reactquery
+  SvgDanGao,
+  SvgReactIcon,
+  SvgReactquery
 }
