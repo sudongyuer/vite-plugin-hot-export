@@ -1,7 +1,9 @@
-import Love from './Love.jpeg'
-import LongZhu from './long-zhu.png'
+import JpgBg from './bg.jpg'
+import PngIcon from './icon.png'
+import PngLongZhu from './long-zhu.png'
 
 export {
-  Love,
-  LongZhu
+  JpgBg,
+  PngIcon,
+  PngLongZhu
 }
