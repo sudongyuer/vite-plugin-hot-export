@@ -22,6 +22,9 @@ When developing, we often need to download some `images` or `svg` from the inter
 - custom outputDir
 - 🍄 Support custom import statement
 - ✨ HMR support 
+- 🌈 Nest directory generate support
+- 🍣 Auto Prefix support
+
 
 ## 📺 Preview
 
@@ -54,6 +57,11 @@ export default defineExportConfig({
       targetDir: './src/assets/images',
     },
     {
+      targetDir: './src/assets/img',
+      depth: true,
+      autoPrefix: true
+    },
+    {
       targetDir: './src/assets/css',
       outputDir: './src/assets/css',
     },
@@ -62,6 +70,13 @@ export default defineExportConfig({
       customImport: (fileName, file) => {
         return `import { ReactComponent as ${fileName} } from '${file}'`
       },
+    },
+    {
+      targetDir: './src/assets/gif',
+      customImport: (fileName, file, fileType) => {
+        return `import ${fileType}${fileName} from '${file}'`
+      },
+      depth: true
     },
   ],
 })
