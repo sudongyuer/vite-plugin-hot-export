@@ -4,7 +4,7 @@
 
 Automatically export files with HMR
 
-[![NPM version](https://img.shields.io/github/package-json/v/sudongyuer/vite-plugin-hot-export)](https://www.npmjs.com/package/vite-plugin-hot-export)
+[![NPM version](https://badge.fury.io/js/vite-plugin-hot-export.svg)](https://www.npmjs.com/package/vite-plugin-hot-export)
 
 
 <p align='center'>
