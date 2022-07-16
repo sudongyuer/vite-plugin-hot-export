@@ -1,7 +1,7 @@
 import './App.css'
-import { LongZhu, Love } from './images'
+import { PngIcon } from './images'
 import logo from './logo.svg'
-import { DanGao, ReactIcon, Reactquery } from './svgs'
+import { SvgDanGao, SvgReactIcon, SvgReactquery } from './svgs'
 function App() {
   return (
     <div className="App">
@@ -9,16 +9,16 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <img
           style={{ width: '150px' }}
-          src={LongZhu}
+          src={PngIcon}
          />
         <p style={{
           display: 'flex',
           justifyContent: 'center',
           gap: '10px',
         }}>
-          <ReactIcon/>
-          <DanGao/>
-          <Reactquery/>
+          <SvgDanGao/>
+          <SvgReactIcon/>
+          <SvgReactquery/>
         </p>
         <p>Hello Vite + React!</p>
         <p>
