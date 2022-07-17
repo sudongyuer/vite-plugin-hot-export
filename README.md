@@ -17,9 +17,9 @@ When developing, we often need to download some `images` or `svg` from the inter
 
 ## 🚀 Features
 
-- Multiple directory generate support
-- Auto export files
-- custom outputDir
+- 👻 Multiple directory generate support
+- 🍁 Auto export files
+- 🐥 custom outputDir
 - 🍄 Support custom import statement
 - ✨ HMR support 
 - 🌈 Nest directory generate support
@@ -29,7 +29,7 @@ When developing, we often need to download some `images` or `svg` from the inter
 ## 📺 Preview
 
 <p align='center'>
-<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220713/priview.gif?raw=true' width='100%'/>
+<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220717/vite-plugin-hot-export.g4ycbid2zxs.gif?raw=true' width='100%'/>
 </p>
 
 
@@ -99,6 +99,12 @@ Then start your project
 ```bash
 pnpm run dev
 ```
+## Not Work?
+
+If you are use webstorm, please check the following:
+
+![image-20220717101450402](https://tva1.sinaimg.cn/large/e6c9d24egy1h49pefcb4jj21580u0wi5.jpg)
+
 
 ## Author
 
