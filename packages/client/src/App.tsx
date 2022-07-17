@@ -1,31 +1,31 @@
 import './App.css'
-import { PngIcon } from './images'
+import { PngIcon, PngSpotify } from './images'
 import logo from './logo.svg'
-import { SvgDanGao, SvgReactIcon, SvgReactquery } from './svgs'
+import { SvgAndroid, SvgBookHipsterOnTrend, SvgCameraHipsterOnTrend, SvgHipsterOnTrendPipe } from './svgs'
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img style={{ width: '200px' }} src={logo} alt="logo" />
+        <img style={{ width: '300px' }} src={'https://git.poker/sudongyuer/image-bed/blob/master/20220714/vite-plugin-auto-export-logo.1aoaypaggq5c.png?raw=true'} alt="logo" />
         <img
           style={{ width: '150px' }}
-          src={PngIcon}
+          src={PngSpotify}
          />
         <p style={{
           display: 'flex',
           justifyContent: 'center',
           gap: '10px',
         }}>
-          <SvgDanGao/>
-          <SvgReactIcon/>
-          <SvgReactquery/>
+          <SvgAndroid/>
+          <SvgBookHipsterOnTrend/>
+          <SvgCameraHipsterOnTrend/>
+          <SvgHipsterOnTrendPipe/> 
         </p>
-        <p>Hello Vite + React!</p>
+        <p>vite-plugin-hot-export</p>
         <p>
-          Sudongyuer Demo show 🐟
-        </p>
-        <p>
-          vite-plugin-hot-export
+          GitHub 👉 sudongyuer 🐟
         </p>
         {/* <img src={Gold}></img> */}
       </header>
