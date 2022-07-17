@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.5.1
+
+### Patch Changes
+
+- 9e06716: update readme.md
+
 ## 0.5.0
 
 ### Minor Changes
