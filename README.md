@@ -8,7 +8,7 @@ Automatically export files with HMR
 
 
 <p align='center'>
-<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220717/屏幕录制2022-07-17-11.5s03skns56c0.gif?raw=true' width='200'/>
+<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220714/vite-plugin-auto-export-logo.1aoaypaggq5c.png?raw=true' width='200'/>
 </p>
 
 ## Why ?
@@ -29,7 +29,7 @@ When developing, we often need to download some `images` or `svg` from the inter
 ## 📺 Preview
 
 <p align='center'>
-<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220717/屏幕录制2022-07-17-11.1101cfqrupcw.gif?raw=true' width='100%'/>
+<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220717/屏幕录制2022-07-17-11.5s03skns56c0.gif?raw=true' width='100%'/>
 </p>
 
 
