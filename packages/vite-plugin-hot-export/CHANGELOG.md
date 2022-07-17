@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.5.2
+
+### Patch Changes
+
+- 87d8a42: update readme explain new config
+
 ## 0.5.1
 
 ### Patch Changes
