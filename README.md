@@ -45,9 +45,13 @@ pnpm add -D vite-plugin-hot-export
 
 - targetDir (require) : the directory to export files
 
-- outputDir (optional): the directory to generate the `index.ts` file to export files
+- outputDir (optional,default targetDir) : the directory to generate the `index.ts` file to export files
 
-- customImport (optional): custom the import statement to use in the `index.ts` file 
+- customImport (optional) : custom the import statement to use in the `index.ts` file 
+
+- depth (optional , default true) : traverse all subdirectories
+
+- autoPrefix (optional , default false) : auto add prefix to the file name. Note that the if you open the customImport option,this option will be ignored
 
 ```js
 import { defineExportConfig } from 'vite-plugin-hot-export'
