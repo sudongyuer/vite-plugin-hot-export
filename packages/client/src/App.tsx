@@ -21,7 +21,7 @@ function App() {
           <SvgAndroid/>
           <SvgBookHipsterOnTrend/>
           <SvgCameraHipsterOnTrend/>
-          <SvgHipsterOnTrendPipe/> 
+          <SvgHipsterOnTrendPipe/>
         </p>
         <p>vite-plugin-hot-export</p>
         <p>
