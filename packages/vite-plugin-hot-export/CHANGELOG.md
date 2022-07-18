@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.5.4
+
+### Patch Changes
+
+- 7b3efec: update package bin
+
 ## 0.5.3
 
 ### Patch Changes
