@@ -33,9 +33,6 @@
       ]
     }
   },
-  "bin": {
-    "autoexport": "./node_modules/.bin/autoexport"
-  },
   "files": [
     "dist"
   ],
