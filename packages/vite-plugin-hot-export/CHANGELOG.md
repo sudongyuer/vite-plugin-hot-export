@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.5.3
+
+### Patch Changes
+
+- e0d11f2: update dep
+
 ## 0.5.2
 
 ### Patch Changes
