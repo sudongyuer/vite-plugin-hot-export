@@ -5,7 +5,7 @@ import fs from 'fs'
 import type { Plugin } from 'vite'
 import { loadConfig } from 'unconfig'
 import chokidar from 'chokidar'
-
+import { main } from 'auto-export/utils'
 function VitePluginHotExport(): Plugin {
   return {
     name: 'vite-plugin-hot-export',
@@ -48,7 +48,7 @@ function VitePluginHotExport(): Plugin {
 
 function excuteAutoExport() {
   try {
-    child_process.execSync('pnpm autoexport')
+    main()
   }
   catch (error) {
     child_process.execSync('npx autoexport')
