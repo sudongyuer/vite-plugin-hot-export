@@ -1,6 +1,6 @@
 # vite-plugin-hot-export
 
-自动导入文件并且支持热更新
+自动导出文件并且支持热更新
 
 [English](/README.md)|简体中文
 
