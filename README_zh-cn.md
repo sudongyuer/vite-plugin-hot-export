@@ -2,7 +2,7 @@
 
 自动导入文件并且支持热更新
 
-[English](/sudongyuer/vite-plugin-hot-export/README.md)|简体中文
+[English](/README.md)|简体中文
 
 [![NPM version](https://badge.fury.io/js/vite-plugin-hot-export.svg)](https://www.npmjs.com/package/vite-plugin-hot-export)
 

@@ -4,7 +4,7 @@
 
 Automatically export files with HMR
 
-English|[简体中文](/sudongyuer/vite-plugin-hot-export/README_zh-cn.md)
+English|[简体中文](/README_zh-cn.md)
 
 [![NPM version](https://badge.fury.io/js/vite-plugin-hot-export.svg)](https://www.npmjs.com/package/vite-plugin-hot-export)
 
