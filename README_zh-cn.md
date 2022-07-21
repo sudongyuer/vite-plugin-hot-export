@@ -1,10 +1,8 @@
 # vite-plugin-hot-export
 
+自动导入文件并且支持热更新
 
-
-Automatically export files with HMR
-
-English|[简体中文](/sudongyuer/vite-plugin-hot-export/README_zh-cn.md)
+[English](/sudongyuer/vite-plugin-hot-export/README.md)|简体中文
 
 [![NPM version](https://badge.fury.io/js/vite-plugin-hot-export.svg)](https://www.npmjs.com/package/vite-plugin-hot-export)
 
@@ -13,47 +11,45 @@ English|[简体中文](/sudongyuer/vite-plugin-hot-export/README_zh-cn.md)
 <img src='https://git.poker/sudongyuer/image-bed/blob/master/20220714/vite-plugin-auto-export-logo.1aoaypaggq5c.png?raw=true' width='200'/>
 </p>
 
-## Why ?
 
-When developing, we often need to download some `images` or `svg` from the internet, and when we need to use them, we need export them in `index.ts` file `manually`, this plugin can handle this for you `automatically`.And support HMR 🌈
+## 为什么使用 ?
 
-## 🚀 Features
+开发的时候，我们通常需要从网络上下载`图片`或`svg`，使用的时候需要`手动`的在`index.ts`导出，这个插件能够帮助你`自动`导出并且支持热更新 🌈
 
-- 👻 Multiple directory generate support
-- 🍁 Auto export files
-- 🐥 custom outputDir
-- 🍄 Support custom import statement
-- ✨ HMR support 
-- 🌈 Nest directory generate support
-- 🍣 Auto Prefix support
+## 🚀 Features 特性
+
+- 👻 支持多目录生成
+- 🍁自动导出文件
+- 🐥 自定义导出路径
+- 🍄 支持自定义导出语句
+- ✨ 支持热更新
+- 🌈 支持嵌套目录生成
+- 🍣  支持自动添加前缀
 
 
-## 📺 Preview
+## 📺 Preview 预览
 
 <p align='center'>
 <img src='https://git.poker/sudongyuer/image-bed/blob/master/20220717/屏幕录制2022-07-17-11.2ia7q69awd00.gif?raw=true' width='100%'/>
 </p>
 
 
-## 🦄 Usage
 
-### Install
+## 🦄 使用
+
+### 安装
 
 ```bash
 pnpm add -D vite-plugin-hot-export
 ```
 
-### Config `export.config.ts`
+### 配置`export.config.ts`
 
-- targetDir (require) : the directory to export files
-
-- outputDir (optional,default targetDir) : the directory to generate the `index.ts` file to export files
-
-- customImport (optional) : custom the import statement to use in the `index.ts` file 
-
-- depth (optional , default true) : traverse all subdirectories
-
-- autoPrefix (optional , default false) : auto add prefix to the file name. Note that the if you open the customImport option,this option will be ignored
+-  targetDir(必要的)：导出文件的目录
+- outputDir (可选的,默认 targetDir) ：指定生成`index.ts`的目录
+- customImport (可选的)：自定义`index.ts`中的导出语句
+- depth (可选的 , 默认 true) :  遍历所有子目录
+- autoPrefix (可选的 , 默认 false) ：自动添加文件前缀名。请注意，如果使用了customImport配置，这个配置将被忽略
 
 ```js
 import { defineExportConfig } from 'vite-plugin-hot-export'
@@ -89,7 +85,7 @@ export default defineExportConfig({
 
 ```
 
-Add `vite-plugin-hot-export` plugin to vite.config.js / vite.config.ts and configure it:
+在vite.config.js / vite.config.ts中添加 `vite-plugin-hot-export`插件并且配置：
 
 ```js
 // vite.config.js / vite.config.ts
@@ -101,21 +97,24 @@ export default {
   ]
 }
 ```
-Then start your project
+
+在你的项目中使用
+
 ```bash
 pnpm run dev
 ```
-## Not Work?
 
-If you are use webstorm, please check the following:
+## 为什么不起作用？
+
+如果你使用的是webstorm，请按照下面的步骤检查：
 
 ![image-20220717101450402](https://tva1.sinaimg.cn/large/e6c9d24egy1h49pefcb4jj21580u0wi5.jpg)
 
 
-## Author
+## 作者
 
 sudongyuer email:976499226@qq.com
 
-## 📄 License
+## 📄 许可证
 
-[MIT](./LICENSE) License © 2021 [SuDongYu](https://github.com/sudongyuer)
+[MIT](./LICENSE) License © 2021 [SuDongYu](
