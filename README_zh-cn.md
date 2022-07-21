@@ -12,11 +12,11 @@
 </p>
 
 
-## 为什么使用 ?
+## Why ?
 
 开发的时候，我们通常需要从网络上下载`图片`或`svg`，使用的时候需要`手动`的在`index.ts`导出，这个插件能够帮助你`自动`导出并且支持热更新 🌈
 
-## 🚀 Features 特性
+## 🚀 Features
 
 - 👻 支持多目录生成
 - 🍁自动导出文件
@@ -27,7 +27,7 @@
 - 🍣  支持自动添加前缀
 
 
-## 📺 Preview 预览
+## 📺 Preview
 
 <p align='center'>
 <img src='https://git.poker/sudongyuer/image-bed/blob/master/20220717/屏幕录制2022-07-17-11.2ia7q69awd00.gif?raw=true' width='100%'/>
@@ -35,15 +35,15 @@
 
 
 
-## 🦄 使用
+## 🦄  Usage
 
-### 安装
+### Install
 
 ```bash
 pnpm add -D vite-plugin-hot-export
 ```
 
-### 配置`export.config.ts`
+### Config export.config.ts
 
 -  targetDir(必要的)：导出文件的目录
 - outputDir (可选的,默认 targetDir) ：指定生成`index.ts`的目录
@@ -104,17 +104,17 @@ export default {
 pnpm run dev
 ```
 
-## 为什么不起作用？
+## Not Work?
 
 如果你使用的是webstorm，请按照下面的步骤检查：
 
 ![image-20220717101450402](https://tva1.sinaimg.cn/large/e6c9d24egy1h49pefcb4jj21580u0wi5.jpg)
 
 
-## 作者
+## Author
 
 sudongyuer email:976499226@qq.com
 
-## 📄 许可证
+## 📄 License
 
 [MIT](./LICENSE) License © 2021 [SuDongYu](
