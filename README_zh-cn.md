@@ -21,7 +21,7 @@
 - 👻 支持多目录生成
 - 🍁自动导出文件
 - 🐥 自定义导出路径
-- 🍄 支持自定义导出语句
+- 🍄 支持自定义`import`语句
 - ✨ 支持热更新
 - 🌈 支持嵌套目录生成
 - 🍣  支持自动添加前缀
@@ -117,4 +117,4 @@ sudongyuer email:976499226@qq.com
 
 ## 📄 License
 
-[MIT](./LICENSE) License © 2021 [SuDongYu](
+[MIT](./LICENSE) License © 2021 [SuDongYu](https://github.com/sudongyuer)
