@@ -26,7 +26,7 @@
 - 🍣 Auto Prefix support
 
 
-## 📺 Preview
+## 📺 预览
 
 <p align='center'>
 <img src='https://git.poker/sudongyuer/image-bed/blob/master/20220717/屏幕录制2022-07-17-11.2ia7q69awd00.gif?raw=true' width='100%'/>
@@ -103,7 +103,7 @@ export default {
 ```bash
 pnpm run dev
 ```
-## Not Work?
+## 没有生效?
 
 如果你用的是`webstorm`，请参考:
 
