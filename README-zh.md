@@ -1,10 +1,8 @@
+[English](https://github.com/sudongyuer/vite-plugin-hot-export#readme) | 简体中文
+
 # vite-plugin-hot-export
 
-
-
-Automatically export files with HMR
-
-English|[简体中文](/README_zh-cn.md)
+自动导出
 
 [![NPM version](https://badge.fury.io/js/vite-plugin-hot-export.svg)](https://www.npmjs.com/package/vite-plugin-hot-export)
 
@@ -13,47 +11,47 @@ English|[简体中文](/README_zh-cn.md)
 <img src='https://git.poker/sudongyuer/image-bed/blob/master/20220714/vite-plugin-auto-export-logo.1aoaypaggq5c.png?raw=true' width='200'/>
 </p>
 
-## Why ?
+## 为什么 ?
 
-When developing, we often need to download some `images` or `svg` from the internet, and when we need to use them, we need export them in `index.ts` file `manually`, this plugin can handle this for you `automatically`.And support HMR 🌈
+开发时用的image，svg等资源，我们需要手动通过`index.ts`导出, 这款插件就可以解放双手，并且支持`HMR` 🌈
 
-## 🚀 Features
+## 🚀 特点
 
-- 👻 Multiple directory generate support
-- 🍁 Auto export files
-- 🐥 custom outputDir
-- 🍄 Support custom import statement
-- ✨ HMR support 
-- 🌈 Nest directory generate support
-- 🍣 Auto Prefix support
+- 👻 支持文件夹批量生成
+- 🍁 自动导出文件
+- 🐥 自定义输出文件
+- 🍄 自定义导入声明
+- ✨ 支持`HMR`
+- 🌈 支持多级目录
+- 🍣 自动添加前缀
 
 
-## 📺 Preview
+## 📺 预览
 
 <p align='center'>
 <img src='https://git.poker/sudongyuer/image-bed/blob/master/20220717/屏幕录制2022-07-17-11.2ia7q69awd00.gif?raw=true' width='100%'/>
 </p>
 
 
-## 🦄 Usage
+## 🦄 用法
 
-### Install
+### 安装
 
 ```bash
 pnpm add -D vite-plugin-hot-export
 ```
 
-### Config `export.config.ts`
+### 配置 `export.config.ts`
 
-- targetDir (require) : the directory to export files
+- `targetDir` (必须) : 目标文件夹
 
-- outputDir (optional,default targetDir) : the directory to generate the `index.ts` file to export files
+- `outputDir` (可选,默认：目标文件夹) : 通过 `index.ts` 文件导出
 
-- customImport (optional) : custom the import statement to use in the `index.ts` file 
+- `customImport` (可选) : 通过`index.ts`自定义导入 
 
-- depth (optional , default true) : traverse all subdirectories
+- `depth` (可选 , 默认： true) : 递归子目录
 
-- autoPrefix (optional , default false) : auto add prefix to the file name. Note that the if you open the customImport option,this option will be ignored
+- `autoPrefix` (可选 , 默认： false) : 自动给文件加前缀. 注意：如果`customImport`没有配置，则忽略该配置
 
 ```js
 import { defineExportConfig } from 'vite-plugin-hot-export'
@@ -89,7 +87,7 @@ export default defineExportConfig({
 
 ```
 
-Add `vite-plugin-hot-export` plugin to vite.config.js / vite.config.ts and configure it:
+增加 `vite-plugin-hot-export` 插件到 vite.config.js / vite.config.ts 然后配置它:
 
 ```js
 // vite.config.js / vite.config.ts
@@ -101,18 +99,18 @@ export default {
   ]
 }
 ```
-Then start your project
+然后起服务
 ```bash
 pnpm run dev
 ```
-## Not Work?
+## 没有生效?
 
-If you are use webstorm, please check the following:
+如果你用的是`webstorm`，请参考:
 
 ![image-20220717101450402](https://tva1.sinaimg.cn/large/e6c9d24egy1h49pefcb4jj21580u0wi5.jpg)
 
 
-## Author
+## 作者
 
 sudongyuer email:976499226@qq.com
 
