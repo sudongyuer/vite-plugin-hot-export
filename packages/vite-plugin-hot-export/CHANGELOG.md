@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.5.5
+
+### Patch Changes
+
+- e5314c6: update auto-export v0.3.3
+
 ## 0.5.4
 
 ### Patch Changes
