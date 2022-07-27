@@ -50,7 +50,7 @@
     "try": "tsx src/index.ts"
   },
   "dependencies": {
-    "auto-export": "^0.3.2",
+    "auto-export": "^0.3.3",
     "chokidar": "^3.5.3",
     "unconfig": "^0.3.5"
   },
