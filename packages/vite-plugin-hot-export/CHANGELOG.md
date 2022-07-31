@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.5.6
+
+### Patch Changes
+
+- 5858ba5: fix: window path compatibility
+
 ## 0.5.5
 
 ### Patch Changes
