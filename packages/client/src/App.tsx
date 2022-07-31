@@ -1,5 +1,5 @@
 import './App.css'
-import { PngIcon, PngSpotify } from './images'
+import { PngSpotify } from './images'
 import logo from './logo.svg'
 import { SvgAndroid, SvgBookHipsterOnTrend, SvgCameraHipsterOnTrend, SvgHipsterOnTrendPipe } from './svgs'
 

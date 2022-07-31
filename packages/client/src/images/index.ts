@@ -3,5 +3,5 @@ import PngSpotify from './spotify.png'
 
 export {
   PngIcon,
-  PngSpotify
+  PngSpotify,
 }
