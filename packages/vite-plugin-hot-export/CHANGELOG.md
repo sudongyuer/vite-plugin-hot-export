@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.5.7
+
+### Patch Changes
+
+- dca4c60: release v0.5.6
+
 ## 0.5.6
 
 ### Patch Changes
