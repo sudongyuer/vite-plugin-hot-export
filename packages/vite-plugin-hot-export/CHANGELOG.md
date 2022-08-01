@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.5.8
+
+### Patch Changes
+
+- e1341f5: release: v0.5.8
+
 ## 0.5.7
 
 ### Patch Changes
