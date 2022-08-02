@@ -24,19 +24,19 @@ function VitePluginHotExport(): Plugin {
           const configs = configArray.configs
           for (let i = 0; i < configs.length; i++) {
             const config = configs[i]
-            const { targetDir } = config
-            let filesCount = getCurrentDirFilesCount(targetDir)
+            // const { targetDir, outputDir } = config
+            // let filesCount = getCurrentDirFilesCount(targetDir)
             chokidar.watch(path.resolve(cwd(), config.targetDir), {
               ignoreInitial: true,
               atomic: true,
               followSymlinks: true,
             }).on('all', (event, pathDir) => {
-              if (pathDir !== path.resolve(cwd(), targetDir, 'index.ts')) {
-                const newFilesCount = getCurrentDirFilesCount(targetDir)
-                if (newFilesCount !== filesCount) {
-                  excuteAutoExport()
-                  filesCount = newFilesCount
-                }
+              if (!pathDir.includes('index')) {
+                // const newFilesCount = getCurrentDirFilesCount(targetDir)
+                // if (newFilesCount !== filesCount) {
+                excuteAutoExport()
+                // filesCount = newFilesCount
+                // }
               }
             })
           }
