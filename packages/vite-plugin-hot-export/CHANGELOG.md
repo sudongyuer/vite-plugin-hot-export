@@ -1,5 +1,11 @@
 # vite-plugin-hot-export
 
+## 0.5.9
+
+### Patch Changes
+
+- 086c25a: 🦥 fix change fileName
+
 ## 0.5.8
 
 ### Patch Changes
