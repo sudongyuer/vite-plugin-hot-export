@@ -31,7 +31,7 @@ When developing, we often need to download some `images` or `svg` from the inter
 ## 📺 Preview
 
 <p align='center'>
-<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220717/屏幕录制2022-07-17-11.2ia7q69awd00.gif?raw=true' width='100%'/>
+<img src='https://cdn.staticaly.com/gh/sudongyuer/image-bed@master/20220714/hot-export-privew.gif?raw=true' width='100%'/>
 </p>
 
 
