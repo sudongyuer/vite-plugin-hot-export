@@ -10,7 +10,7 @@ English|[简体中文](/README_zh-cn.md)
 
 
 <p align='center'>
-<img src='https://git.poker/sudongyuer/image-bed/blob/master/20220714/vite-plugin-auto-export-logo.1aoaypaggq5c.png?raw=true' width='200'/>
+<img src='https://cdn.staticaly.com/gh/sudongyuer/image-bed@master/20220714/vite-plugin-auto-export-logo.1aoaypaggq5c.png?raw=true' width='200'/>
 </p>
 
 ## Why ?
